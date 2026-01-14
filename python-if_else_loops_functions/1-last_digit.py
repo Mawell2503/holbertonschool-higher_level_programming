@@ -2,6 +2,7 @@
 import random
 
 number = random.randint(-10000, 10000)
+
 last_digit = abs(number) % 10
 if number < 0:
     last_digit = -last_digit
@@ -9,14 +10,14 @@ if number < 0:
 if last_digit < 6 and last_digit != 0:
     print("Last digit of {:d} is {:d} and is less than 6 and not 0".format(
         number, last_digit
-        )
-    )  # one way of cutting a line is just to \n  where needed
-
+        ))  # one way of cutting a line is just to \n  where needed
+            # string is different, place a \ before \n
 if last_digit > 5:
-    print("Last digit of {:d} is {:d}and is greater than 5".format(
-        number, last_digit))  # same here
+    print("Last digit of {:d} is {:d} and is greater than 5".format(
+        number, last_digit
+        ))  
 
 if last_digit == 0:
-    print("Last digit of {:d} is {:d}\
-    and is 0".format(number, last_digit))
-    # string is different, place a \ before \n
+    print("Last digit of {:d} is {:d} and is 0".format(
+        number, last_digit
+        ))
