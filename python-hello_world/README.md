@@ -1,5 +1,10 @@
 first project "hello world."
-~task explanation~
+
+~STRING SLICING~
+a[start:stop]
+start = index where slice begins 
+stop = index where slice ends
+~TASK EXPLANANTION~
 
 2-print:
 uses fucntion print() to print a sentence

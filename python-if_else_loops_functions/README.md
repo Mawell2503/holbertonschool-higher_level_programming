@@ -51,3 +51,13 @@ task 11:
 ** exponentiation operator(power)
 
 task 12:
+
+
+~INDEPTH EXPLANANTION OF DEF COMPARISON~
+in C a prototype is understood by the system to be a prototype due to semi colons(;)
+e.g/  int add(int a, int b);  <--
+the prototype only declares the presence of the code/function to the compiler. it does not define it.
+what defines a prototype is the curly brackets({}). only after implementing those that the function prototype defines.
+which is different from python "def"
+def declasres and defines directly because it does not require the brackets 
+in python the body is continuous from the first line to the last which is the key difference as in C the body is AFTER the declaration
