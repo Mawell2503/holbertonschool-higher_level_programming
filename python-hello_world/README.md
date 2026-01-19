@@ -3,7 +3,8 @@ first project "hello world."
 ~STRING SLICING~
 a[start:stop]
 start = index where slice begins 
-stop = index where slice ends
+stop = index where slice ends(that means it stops before this index)
+
 ~TASK EXPLANANTION~
 
 2-print:
