@@ -1,4 +1,6 @@
 first project "hello world."
+~task explanation~
+
 2-print:
 uses fucntion print() to print a sentence
 
