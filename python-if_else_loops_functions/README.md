@@ -33,24 +33,21 @@ task 5:
 
 task 6:
 
-
 task 7:
-
+ord() is the opposite of chr() where it turns an assigned character to the ASCII code
 
 task 8:
-
+def is an advanced version of a protoype in C
+def defines and declares at the same time
+python understand "" to be an empty string.
 
 task 9:
-
-
+------
 
 task 10:
-
-
+------
 
 task 11:
-
+** exponentiation operator(power)
 
 task 12:
-
-
