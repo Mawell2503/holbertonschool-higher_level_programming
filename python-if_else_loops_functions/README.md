@@ -1,4 +1,4 @@
-second project hello world.
+Second project hello world.
 learning how to create loops in python
 
 ~loops syntax/format~

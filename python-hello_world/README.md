@@ -1,4 +1,4 @@
-first project "hello world."
+First project "hello world."
 
 ~STRING SLICING~
 a[start:stop]
