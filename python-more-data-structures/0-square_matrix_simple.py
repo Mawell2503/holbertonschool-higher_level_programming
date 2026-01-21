@@ -14,3 +14,4 @@ def square_matrix_simple(matrix=[]):
         new_list.append(num_list)
     #  return the new list
     return new_list
+
