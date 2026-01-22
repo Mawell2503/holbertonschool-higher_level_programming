@@ -9,4 +9,4 @@ def common_elements(set_1, set_2):
             #  add element to set
             common.add(element)
             #  return the set
-            return common
+    return common
