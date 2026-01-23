@@ -8,6 +8,7 @@ basically "run the code(that is inside the try block). WHEN it fails. move to ex
 so it will do until the program finds an error
 
 task 1:
+----
 
 task 2:
 
