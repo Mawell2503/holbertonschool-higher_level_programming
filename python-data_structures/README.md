@@ -34,4 +34,16 @@ task 4:
         basically ( 0 <= idx) and (idx < len(new_list))
 
 task 5:
+----
 
+task 6:
+----
+
+task 7:
+tuple is a data type that stores multiple values in  one variable.
+
+task 8:
+
+task 9:
+
+task 10:
