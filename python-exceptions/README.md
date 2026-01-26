@@ -40,7 +40,14 @@ finally
     a block of code that runs regardless of try/except.
 
 task 4:
-
+IndexError
+    error that occurs when u try to access inexisting index
+ZeroDivisionError
+    error taht occurs when you try to divivde by zero
+    
 task 5:
+----
 
 task 6:
+NameError
+    error taht occurs when you try to use variable or a fucntion name that hasnt been defined yet
