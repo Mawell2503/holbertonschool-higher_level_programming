@@ -21,7 +21,6 @@ def roman_to_int(roman_string):
             else:
                 #  add
                 total += current_value
-        
         else:
             #  add
             total += current_value
