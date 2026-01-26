@@ -28,8 +28,12 @@ task 1:
 ----
 
 task 2:
+ValueError 
+    error that occurs when the type is right but the value is invalide for the operation
+TypeError
+    error that occurs when you try  to do something with a value of the wrong type.
 continue
-en gros enn gros likisorma skip button sa
+    en gros enn gros likisorma skip button sa
 
 task 3:
 finally
