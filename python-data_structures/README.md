@@ -41,6 +41,8 @@ task 6:
 
 task 7:
 tuple is a data type that stores multiple values in  one variable.
+len()
+    counts how many elements are in the ()
 
 task 8:
 
