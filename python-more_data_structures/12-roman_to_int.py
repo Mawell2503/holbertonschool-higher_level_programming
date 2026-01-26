@@ -15,13 +15,13 @@ def roman_to_int(roman_string):
             #  check if current element isnt smaller than the next
             if current_value < values[roman_string[i + 1]]:
                 #  if yes; subtract
-                total = values[roman_string[i + 1]] - current_value
+                total -= current_value
             else:
                 #  add
                 total += current_value
         
         else:
-            #  addcs
+            #  add
             total += current_value
 
     return total
