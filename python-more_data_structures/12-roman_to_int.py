@@ -16,8 +16,12 @@ def roman_to_int(roman_string):
             if current_value < values[roman_string[i + 1]]:
                 #  if yes; subtract
                 total = values[roman_string[i + 1]] - current_value
-                break
             else:
                 #  add
                 total += current_value
+        
+        else:
+            #  addcs
+            total += current_value
+
     return total
