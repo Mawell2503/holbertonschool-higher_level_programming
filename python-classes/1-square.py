@@ -3,6 +3,7 @@
 
 
 class Square:
+    """ this class attaches a size to its object"""
     #defines self and size
     def __init__(self, size):
         #  attach var. size to P.I __size in the object self
