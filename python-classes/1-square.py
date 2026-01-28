@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This file defines a Square class and its object"""
+"""This code defines a Square class and its object"""
 
 
 class Square:
