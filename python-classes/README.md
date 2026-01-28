@@ -12,6 +12,23 @@ Eighth Project/ ~class and object~
     *__object
         private instance(P.I)s
 
+*data(attributes)
+    *normal attribute
+        can be accessed and changed from anywhere
+    *private attribute
+        blocks direct access and can only be used inside the class
+        usage:
+        protect object's data
+        control over how value changes
+        avoid bugs
+
+*method
+    a function inside a class
+
+*property
+    runs code
+
+*setter
 
 
 ~Task Explanantion~
@@ -22,8 +39,10 @@ Task 1:
 __init__ - it defines data when the instance is created
 
 task 2:
+----
 
 task 3:
+** 2 - raise power of 2
 
 task 4:
 

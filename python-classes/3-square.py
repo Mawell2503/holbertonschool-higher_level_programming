@@ -14,4 +14,5 @@ class Square:
 
     def area(self):
         """This code squares square"""
+        #  return a squared value
         return self.__size ** 2
