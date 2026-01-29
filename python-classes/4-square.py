@@ -6,16 +6,15 @@ class Square:
     """This class defines a square"""
 
     #  value of size is now in instance size in attribute self
-    def __init__(self, size):
+    def __init__(self, size=0):
         self.size = size 
 
     #  return size without exposing or reaking it
-    @size.property
+    @property
     def size(self):
         """Retrieve the size"""
         return self.__size
 
-    @size.setter
     def size(self, value):
         """This block is a size setter"""
         if not isinstance(size, int):
