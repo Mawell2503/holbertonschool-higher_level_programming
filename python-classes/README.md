@@ -1,32 +1,31 @@
 Eighth Project/ ~class and object~
 
-*class - a blueprint for creating objects( in C struct)
-    defines data & behavior(functions)
+*class - a blueprint for creating objects( in C = struct)
+    -keyword telling python "you're creating a blueprint"
+    -defines data & behavior(functions)
         *data(attributes) - variables belonging to an object
+    *method
+        -a function inside a class
 
-    keyword telling python "you're creating a blueprint"
-
-*object - an instance(in C the custom data type)
-    holds data
-        each object can store its own value
-    *__object
-        private instance(P.I)s
-
-*data(attributes)
-    *normal attribute
-        can be accessed and changed from anywhere
-    *private attribute
-        blocks direct access and can only be used inside the class
-        usage:
-        protect object's data
-        control over how value changes
-        avoid bugs
+*object - an instance(in C = custom data type)
+    -each object can store its own value(data)
+        *data(attributes)
+            -normal attribute
+                -can be accessed and changed from anywhere
+            -private attribute
+                -private instance have __ in front of them |eg| __object
+                -blocks direct access and can only be used inside the class
+                -usage:
+                    protect object's data
+                    control over how value changes
+                    avoid bugs
 
 *method
     a function inside a class
 
-*property
-    runs code
+*@
+    decorator
+        a function that wraps another function/ adds or modifies another function/ and it doesnt change the original function
 
 *setter
 
@@ -45,6 +44,14 @@ task 3:
 ** 2 - raise power of 2
 
 task 4:
+*property
+    a builtin function
+    property() is a constructor that takes a function and returns a property object.
+        *property object
+            stores a getter
+*size.setter
+    a builtin function
+    works in pair with @property; links a setter to the property
 
 task 5:
 
