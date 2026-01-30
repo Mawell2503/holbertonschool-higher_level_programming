@@ -4,8 +4,6 @@
 
 class Square:
     """Defines a square"""
-
-
     def __init__(self, size=0):
         self.size = size
 
@@ -25,13 +23,12 @@ class Square:
 
     def area(self):
         """Squares"""
-        return self.__size **2
-    
+        return self.__size ** 2
+
     def my_print(self):
         """Prints square"""
         if self.__size == 0:
             print("")
         else:
             for i in range(self.__size):
-                    print("#" * self.__size)
-
+                print("#" * self.__size)
