@@ -52,6 +52,7 @@ task 4:
 *size.setter
     a builtin function
     works in pair with @property; links a setter to the property
+    makes a method the setter for the size property
 
 task 5:
 
