@@ -1,5 +1,9 @@
 Eighth Project/ ~class and object~
 
+*__init__
+    -its a constructor and runs when you create an object
+    -mainly used when creating a private instance attribute because that's where you initialize your object's attributes
+    
 *class - a blueprint for creating objects( in C = struct)
     -keyword telling python "you're creating a blueprint"
     -defines data & behavior(functions)
