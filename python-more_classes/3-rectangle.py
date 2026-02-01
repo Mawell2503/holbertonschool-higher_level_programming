@@ -13,7 +13,7 @@ class Rectangle:
     def width(self):
         """This module is to retrieve width"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         """This module is to set the value of width"""
@@ -22,12 +22,12 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
-    
+
     @property
     def height(self):
         """This module is to retrieve height"""
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         """This module is to set the value of height"""
@@ -43,14 +43,13 @@ class Rectangle:
     def perimeter(self):
         if self.__width == 0 or self.__height == 0:
             return 0
-        return 2 *(self.__height + self.__width)
+        return 2 * (self.__height + self.__width)
 
     def __str__(self):
         if self.__width == 0 or self.__height == 0:
             return ""
 
         line = []
-        for i in range (self.__height):
-            line.append ("#" * self.__width)
+        for i in range(self.__height):
+            line.append("#" * self.__width)
         return "\n" .join(line)
- 
