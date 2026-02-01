@@ -6,8 +6,8 @@ class Rectangle:
     """This class is a Rectangle"""
     def __init__(self, width=0, height=0):
         """This module creates a private instance attribute"""
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -19,9 +19,10 @@ class Rectangle:
         """This module is to set the value of width"""
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
-        if width > 0:
+        if value < 0:
             raise ValueError("width must be >= 0")
-        
+        self.__width = value
+    
     @property
     def height(self):
         """This module is to retrieve height"""
@@ -31,6 +32,25 @@ class Rectangle:
     def height(self, value):
         """This module is to set the value of height"""
         if not isinstance(value, int):
-            raise TypeError("height musr be ann integer")
-        if height < 0:
-            raise (ValueError(" heigh must be >= 0"))
+            raise TypeError("height must be an integer")
+        if value < 0:
+            raise (ValueError("height must be >= 0"))
+        self.__height = value
+
+    def area(self):
+        return self.__height * self.__width
+
+    def perimeter(self):
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        return 2 *(self.__height + self.__width)
+
+    def __str__(self):
+        if self.__width == 0 or self.__height == 0:
+            return ""
+
+        line = []
+        for i in range (self.__height):
+            line.append ("#" * self.__width)
+        return "\n" .join(line)
+ 
