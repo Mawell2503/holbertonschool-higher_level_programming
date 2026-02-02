@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 Trying:
->>>my_list = my_list()
->>>my_list.append(1)
->>>my_list.append(43)
->>>my_list.append(12)
->>>my_list.append(5)
->>>my_list.append(9)
->>>print(my_list)
-Expecting:
-(1,5,9,12,43)
+>>> my_list = My_List()
+>>> my_list.append(1)
+>>> my_list.append(43)
+>>> my_list.append(12)
+>>> my_list.append(5)
+>>> my_list.append(9)
+>>> print(my_list)
+[1, 43, 12, 5, 9]
+>>> my_list.print_sorted()
+[1, 5, 9, 12, 43]
 
