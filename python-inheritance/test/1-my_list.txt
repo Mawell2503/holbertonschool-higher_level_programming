@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+Trying:
+>>>my_list = my_list()
+>>>my_list.append(1)
+>>>my_list.append(43)
+>>>my_list.append(12)
+>>>my_list.append(5)
+>>>my_list.append(9)
+>>>print(my_list)
+Expecting:
+(1,5,9,12,43)
+

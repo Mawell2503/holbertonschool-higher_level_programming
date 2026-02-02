@@ -7,7 +7,12 @@ Task 0:
 -dir()
     builtin func.
         list all attributes and methods of an objects
+
 Task 1:
+-sorted()
+    builtin func.
+        takes itterable(s) and returns new sorted list
+
 Task 2:
 Task 3:
 Task 4:
