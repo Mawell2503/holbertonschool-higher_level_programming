@@ -14,7 +14,13 @@ Task 1:
         takes itterable(s) and returns new sorted list
 
 Task 2:
+-type()
+    buitin func.
+        returns the exact type of an object
+
 Task 3:
+
+
 Task 4:
 Task 5:
 Task 6:
