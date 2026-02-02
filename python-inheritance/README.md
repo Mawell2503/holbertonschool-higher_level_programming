@@ -4,6 +4,9 @@
 
 ~Task Explanation~
 Task 0:
+-dir()
+    builtin func.
+        list all attributes and methods of an objects
 Task 1:
 Task 2:
 Task 3:
