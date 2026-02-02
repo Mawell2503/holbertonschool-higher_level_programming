@@ -3,4 +3,5 @@
 
 
 def lookup(obj):
+    """This method returns a list"""
     return obj.list
