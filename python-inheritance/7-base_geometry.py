@@ -2,13 +2,13 @@
 """This module is the follow up"""
 
 
-class BaseGeometry:
-    """This method raises an Exception"""
-    def area(self):
-        raise Exception("area() is not implemented")
+    class BaseGeometry:
+        """This method raises an Exception"""
+        def area(self):
+            raise Exception("area() is not implemented")
 
-    def integer_validator(self, name, value):
-        if type(value) is not int:
-            raise TypeError(f"<name> must be an integer")
-        if value <= 0:
-            raise ValueError(f"<name> must be greater than 0")
+        def integer_validator(self, name, value):
+            if type(value) is not int:
+                raise TypeError(f"<name> must be an integer")
+            if value <= 0:
+                raise ValueError(f"<name> must be greater than 0")
