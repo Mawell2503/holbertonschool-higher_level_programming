@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""This module creates a square"""
 
 Rectangle = __import__('9-rectangle').Rectangle
 
