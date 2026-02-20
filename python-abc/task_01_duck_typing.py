@@ -18,12 +18,12 @@ class Circle(Shape):
         self.radius = radius
 
     def check_radius(self, value):
-        self.radius = value
         if not isinstance(value, int):
             raise TypeError("radius must be an integer")
         if value < 0:
             raise ValueError("radius must be >= 0")
-        
+        self.radius = value
+
     def area(self):
         return pi * self.radius ** 2
     
@@ -38,18 +38,18 @@ class Rectangle(Shape):
         self.height = height
 
     def check_width(self, value):
-        self.width = value
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        
+        self.width = value
+
     def check_height(self, value):
-        self.height = value
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
+        self.height = value
         
     def area(self):
         return self.height * self.width
