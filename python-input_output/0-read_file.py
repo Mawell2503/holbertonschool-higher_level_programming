@@ -6,9 +6,9 @@
 
 def read_file(filename=""):
     """Reads a utf-8 text fie and prnts it"""
-    #  open is a built in function that open a file
-    #  encoding="utf-8" is basically what the function must translate the content of the file too
-    #  utf-8 is a character encoding system
-    #  as f is basically n likimama handle
+    #  open > built in function that open a file
+    #  encoding="utf-8" > translate the content of the file to character
+    #  utf-8 > character encoding system
+    #  as f > basically n likimama handle
     with open(filename, encoding="utf-8") as f:
         print(f.read(), end="")
