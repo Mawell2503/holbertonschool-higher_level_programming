@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""This is a file  """
+
+
 #  filename="" is basically a variable for the file u will input
 
 def read_file(filename=""):
