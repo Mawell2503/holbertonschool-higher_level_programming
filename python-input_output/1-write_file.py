@@ -4,8 +4,9 @@
 
 
 def write_file(filename="", text=""):
-    """Returns number of characters written"""
-    #  open "filename" on overide mode and convert characters > bytes
+    """Write & returns number of characters written"""
+    #  open "filename" on overwrite mode and convert characters > bytes
+    #  "w" >> write mode/ovewrite file
     #  + link this to my_f
     with open(filename, "w", encoding="utf-8") as my_f:
         return my_f.write(text)
