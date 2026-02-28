@@ -36,7 +36,7 @@ class Rectangle:
     @height.setter
     def height(self,value):
         """This module is to set the value of height"""
-        self.height = value
+        self.__height = value
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
@@ -81,6 +81,7 @@ class Rectangle:
             return rect_1
         return rect_2
         
+    @classmethod
     def square(cls, size=0):
         """Return a new Rectangle instance where width == height == size."""
         return cls(size, size)
