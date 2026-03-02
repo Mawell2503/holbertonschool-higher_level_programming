@@ -18,11 +18,14 @@ class VerboseList(list):
 
     def pop(self, object=None):
         #  remove last element. Coutntinue with customm behaviour
-        if object is None:      #  checks if object was provided
+        #  checks if object was provided
+        if object is None:
             item = super().pop()
         else:
-            if object < 0 or object >= len(self):   #  checks if object is valid
+            #  checks if object is valid
+            if object < 0 or object >= len(self):
                 raise IndexError("Object you're trying to pop is out of range")
-            item = item = super().pop(object)
+            item = super().pop(object)
 
         print("Popped {} from the list".format(item))
+        return item
