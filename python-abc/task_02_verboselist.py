@@ -17,11 +17,12 @@ class VerboseList(list):
             print("{} cannot be founf in list".format(object))
 
     def pop(self, object=None):
+        #  remove last element. Coutntinue with customm behaviour
         if object is None:      #  checks if object was provided
-            item = self[-1]     #  self[-1] > notation for last object of a list
+            item = super().pop()
         else:
             if object < 0 or object >= len(self):   #  checks if object is valid
                 raise IndexError("Object you're trying to pop is out of range")
-            item = self[object]
+            item = item = super().pop(object)
+
         print("Popped {} from the list".format(item))
-        super().pop(object)
