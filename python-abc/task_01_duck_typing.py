@@ -14,7 +14,7 @@ class Shape(ABC):
 
 class Circle(Shape):
     def __init__(self, radius):
-        if not isinstance(radius, int):
+        if not isinstance(radius, (int, float)):
             raise TypeError("radius must be an integer")
         if radius < 0:
             raise ValueError("radius must be >= 0")
@@ -28,7 +28,7 @@ class Circle(Shape):
 
 class Rectangle(Shape):
     def __init__(self, width, height):
-        if not isinstance(width, int):
+        if not isinstance(width, (int, float)):
             raise TypeError("width must be an integer")
         if width < 0:
             raise ValueError("width must be >= 0")
