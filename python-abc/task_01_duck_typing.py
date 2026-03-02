@@ -30,14 +30,10 @@ class Rectangle(Shape):
     def __init__(self, width, height):
         if not isinstance(width, (int, float)):
             raise TypeError("width must be an integer")
-        if width < 0:
-            raise ValueError("width must be >= 0")
         if not isinstance(height, int):
             raise TypeError("height must be an integer")
-        if height < 0:
-            raise ValueError("height must be >= 0")
-        self.width = width
-        self.height = height
+        self.width = abs(width)
+        self.height = abs(height)
 
     def area(self):
         return self.height * self.width
