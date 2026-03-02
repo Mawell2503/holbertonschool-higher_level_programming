@@ -32,8 +32,8 @@ class Rectangle(Shape):
             raise TypeError("width must be an integer")
         if not isinstance(height, int):
             raise TypeError("height must be an integer")
-        self.width = abs(width)
-        self.height = abs(height)
+        self.width = width
+        self.height = height
 
     def area(self):
         return self.height * self.width
