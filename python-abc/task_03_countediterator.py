@@ -11,9 +11,10 @@ class CountedIterator:
 
     def __next__(self):
         try:
+            obj = next(self.iterobj)
             self.counter += 1
             #  normally next() will automatically raise stopiterations
-            return next(self.iterobj)
+            return obj
         except StopIteration:
             raise StopIteration
         
