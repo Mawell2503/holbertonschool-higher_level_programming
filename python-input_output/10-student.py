@@ -16,7 +16,7 @@ class Student:
         """Retrieves attributes of students"""
         #  if attribute is a list
         if isinstance(attrs, list):
-            #  {} creates an empty dictionary 
+            #  {} creates an empty dictionary
             #  [] creates an empty list
             result = {}
             for attr in attrs:
