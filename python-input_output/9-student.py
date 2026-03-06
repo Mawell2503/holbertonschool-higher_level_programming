@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""This module creates a class student"""
 
 class Student:
     def __init__(self, first_name, last_name, age)
