@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+"""this module defines a pascal triangle"""
 def pascal_triangle(n):
+    """This module defines a pascal traingle"""
     if n <= 0:
         return []
     
