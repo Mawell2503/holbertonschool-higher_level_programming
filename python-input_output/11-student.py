@@ -19,7 +19,7 @@ class Student:
                     result[attr] = getattr(self, attr)
             return result
         return self.__dict__
-    
+
     def reload_from_json(self, json):
         """This module replaces attributes"""
         for key, value in json.items():
