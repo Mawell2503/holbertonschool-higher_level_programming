@@ -1,6 +1,8 @@
 import pickle
-#  converts a python object into byte stream that can be saved or sent 
+#  converts a python object into byte stream that can be saved or sent
 #  uses "wb" for writing bytes & "rb" for reading bytes
+
+
 class CustomObject:
     def __init__(self, name, age, is_student):
         self.name = name
@@ -15,7 +17,7 @@ class CustomObject:
     def serialize(self, filename):
         with open(filename, 'wb') as f:
             pickle.dump(self, f)
-      
+
     @classmethod
     def deserialize(cls, filename):
         with open(filename, 'rb') as f:
