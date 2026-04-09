@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #  http. server:
 #  http is a library with tools to work with the HTTP protocol
 #  server is a submodule of http
@@ -57,7 +58,7 @@ class APIHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write("Endpoint not found".encode())
 
-port=8000
+port=8001
 
 if __name__ == "__main__":
     server_address =("0.0.0.0", port)
