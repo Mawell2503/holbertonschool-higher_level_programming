@@ -58,7 +58,7 @@ class APIHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write("Endpoint not found".encode())
 
-port=8001
+port=8000
 
 if __name__ == "__main__":
     server_address =("0.0.0.0", port)
